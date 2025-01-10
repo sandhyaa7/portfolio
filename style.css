@@ -58,7 +58,7 @@ form input, form textarea, form button {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: ;
+    margin:10px ;
     padding: 20px;
     float:left
 }
