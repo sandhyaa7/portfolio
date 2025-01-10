@@ -32,17 +32,51 @@ form input, form textarea, form button {
     margin-bottom: 1rem;
     width: 100%;
     max-width: 400px;
-    padding: 0.5rem
+    padding: 0.5rem;
+    border-radius: 15px;
+    
 }
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: ;
+    padding: 20px;
+    float:left
 }
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 1px solid #050505;
 }
 th {
-    background-color: #f2f2f2;
+    background-color: #070606;
+    color: #f0f0f0;
+}
+.table-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 50px auto; /* This centers the container */
+}
+.go-back-link {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    text-decoration: none; /* Remove underline */
+    color: #011e3d; /* Link color */
+    font-size: 16px; /* Adjust font size */
+}
+.contact {
+    background-color: #daebd9;
+}
+.button {
+    background-color: yellow;
+    border-radius: 15px ;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.button:hover {
+    background-color: #bce4e4;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
