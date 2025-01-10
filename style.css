@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {    
+    color:black;
+    padding: 10px 0;
+    text-align: center;
+}
+.welcome {
+    background-color: #b5f3f56c;
+    color: #000308;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+section {
+    margin: 20px;
+    padding: 2rem;
+}
+form input, form textarea, form button {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem
+}
