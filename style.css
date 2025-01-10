@@ -10,6 +10,17 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+
+}
+img:hover{
+    transform: scale(1.2);
+}
 .welcome {
     background-color: #b5f3f56c;
     color: #000308;
@@ -26,6 +37,14 @@ nav a {
 section {
     margin: 20px;
     padding: 2rem;
+}
+form {
+    margin: 20px;
+    padding: 2rem;
+    border: #000308;
+    border-radius: 10px;
+    
+
 }
 form input, form textarea, form button {
     display: block;
@@ -57,13 +76,18 @@ th {
     margin: 50px auto; /* This centers the container */
 }
 .go-back-link {
-    position: absolute;
+    margin-top:10px;
+    position:absolute;
     bottom: 20px; /* Adjust the distance from the bottom */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     text-decoration: none; /* Remove underline */
     color: #011e3d; /* Link color */
     font-size: 16px; /* Adjust font size */
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
 }
 .contact {
     background-color: #daebd9;
